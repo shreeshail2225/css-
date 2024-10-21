@@ -1,1 +1,61 @@
 
+body {
+    font-family: Arial, sans-serif; 
+    background-image: url('https://png.pngtree.com/background/20230121/original/pngtree-modern-glass-morphism-gradient-background-picture-image_2021564.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    text-align: center;
+    margin: 0; 
+    padding: 0;
+}
+
+.form-container {
+    margin: 250px auto; 
+    width: 500px;
+    border: 5px solid hwb(171 5% 93%);
+    border-radius: 20px; 
+    background-color: rgba(219, 183, 226, 0.8); /* Added transparency */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+    padding: 20px;
+}
+h2 {
+    color: #151216; 
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: calc(100% - 20px);
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 10px 0; 
+    border: 2px solid #080808;
+    border-radius: 5px; 
+    transition: border-color 0.3s; 
+}
+input:focus,
+textarea:focus {
+    border-color: #9b59b6;
+    outline: none;
+}
+button {
+    background-color: #3fac3c;
+    color: white;
+    border: none; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+button:hover {
+    background-color: #5bcce9; 
+}
+.hidden {
+    display: none;
+}
+#thank-you {
+    margin: 50px auto;
+    font-size: 1.2em; 
+    color: #0f0f0f; 
+}

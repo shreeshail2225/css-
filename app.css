@@ -1,1 +1,44 @@
 
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/023/901/230/small_2x/empty-table-with-blurry-green-natural-park-garden-or-backyard-background-nature-and-outdoor-concept-generative-ai-photo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  input {
+    padding: 10px;
+    margin: 10px 0; 
+    border: 1px solid #7feb91;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 250px; 
+    text-align: center; 
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; 
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
